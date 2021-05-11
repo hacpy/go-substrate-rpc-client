@@ -92,9 +92,9 @@ type EventRecords struct {
 	System_CodeUpdated                 []EventSystemCodeUpdated                 //nolint:stylecheck,golint
 	System_NewAccount                  []EventSystemNewAccount                  //nolint:stylecheck,golint
 	System_KilledAccount               []EventSystemKilledAccount               //nolint:stylecheck,golint
-	Assets_Issued                      []EventAssetIssued                       //nolint:stylecheck,golint
-	Assets_Transferred                 []EventAssetTransferred                  //nolint:stylecheck,golint
-	Assets_Destroyed                   []EventAssetDestroyed                    //nolint:stylecheck,golint
+	XAssets_Issued                     []EventXAssetIssued                      //nolint:stylecheck,golint
+	XAssets_Transferred                []EventXAssetTransferred                 //nolint:stylecheck,golint
+	XAssets_Destroyed                  []EventXAssetDestroyed                   //nolint:stylecheck,golint
 	Democracy_Proposed                 []EventDemocracyProposed                 //nolint:stylecheck,golint
 	Democracy_Tabled                   []EventDemocracyTabled                   //nolint:stylecheck,golint
 	Democracy_ExternalTabled           []EventDemocracyExternalTabled           //nolint:stylecheck,golint

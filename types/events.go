@@ -403,7 +403,7 @@ type EventSystemKilledAccount struct {
 }
 
 // EventAssetIssued is emitted when an asset is issued.
-type EventAssetIssued struct {
+type EventXAssetIssued struct {
 	Phase   Phase
 	AssetID U32
 	Who     AccountID
@@ -412,7 +412,7 @@ type EventAssetIssued struct {
 }
 
 // EventAssetTransferred is emitted when an asset is transferred.
-type EventAssetTransferred struct {
+type EventXAssetTransferred struct {
 	Phase   Phase
 	AssetID U32
 	To      AccountID
@@ -422,7 +422,7 @@ type EventAssetTransferred struct {
 }
 
 // EventAssetDestroyed is emitted when an asset is destroyed.
-type EventAssetDestroyed struct {
+type EventXAssetDestroyed struct {
 	Phase   Phase
 	AssetID U32
 	Who     AccountID
