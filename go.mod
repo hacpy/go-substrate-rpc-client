@@ -1,4 +1,4 @@
-module github.com/centrifuge/go-substrate-rpc-client/v3
+module github.com/hacpy/go-substrate-rpc-client
 
 go 1.16
 
